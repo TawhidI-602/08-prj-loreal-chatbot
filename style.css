@@ -22,12 +22,26 @@ body {
 .site-header {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #b8972a ;
+  margin-bottom: 20px;
 }
 
 .site-title {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.site-subtitle {
+  font-size: 13px;
+  font-weight: 300;
+  color: #666;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /* chat window */
@@ -57,7 +71,17 @@ body {
 }
 
 .msg.ai {
-  color: #666666;
+  color: #636363;
+}
+
+.msg-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b8972a;
+  margin-bottom: 4px;
 }
 
 /* input row */
@@ -75,7 +99,7 @@ body {
 }
 
 .chat-form input:focus {
-  outline: 2px solid #000;
+  outline: 2px solid #b8972a;
   outline-offset: 2px;
 }
 
@@ -99,12 +123,26 @@ body {
 }
 
 .chat-form button:hover {
-  background: #666666;
+  background: #b8972a;
 }
 
 .chat-form button:focus {
   outline: 2px solid #000;
   outline-offset: 2px;
+}
+
+.site-logo {
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.user-question {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b8972a;
+  margin: 24px 0 -24px 0;
+  min-height: 20px;
+  letter-spacing: 0.3px;
 }
 
 /* visually hidden */
